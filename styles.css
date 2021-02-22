@@ -1,0 +1,31 @@
+
+body {
+    background-image: url("https://wallpapercave.com/wp/wc1723390.jpg");
+   }
+
+
+a {
+       margin: 100px;
+       color: gold;
+   }
+
+li {
+    display: inline;
+    color: white;
+
+}
+
+p {
+    color: white;
+    position: relative;
+}
+
+img {
+    position: static;
+    display: absolute;
+    padding-left: 400px;
+}
+h3 {
+    color: goldenrod;
+}
+
