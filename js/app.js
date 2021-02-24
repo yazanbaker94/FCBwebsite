@@ -55,7 +55,7 @@ while (guess != correct){
 }
 
 
-var number = prompt("Please enter your number: ");
+var number = prompt("How many guess who images you want to see? ");
 
 
 for(i = 0; i < number; i++) {
