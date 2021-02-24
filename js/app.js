@@ -8,6 +8,7 @@ var balance = prompt("Whats your balance in the bank?" );
 var convertedBalance = parseInt(balance);
 
 
+
 alert("Your real name is: " + realName);
 alert("Your real age is: " + realAge);
 
@@ -39,4 +40,27 @@ render();
 
 
 confirm("Press OK if you are happy!");
+
+
+var correct = "Yes";
+var guess = "";
+
+while (guess != correct){
+  guess = prompt ("Type Yes or you wont enter", "");
+  if (guess == correct){
+    alert ("Correct");
+  } else {
+    alert ("that's not it...");
+  }
+}
+
+
+var number = prompt("Please enter your number: ");
+
+
+for(i = 0; i < number; i++) {
+
+    document.write('<img src="https://image.shutterstock.com/image-vector/guess-who-banner-censored-260nw-1036031764.jpg" alt="">')
+
+}
 
