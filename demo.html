@@ -6,6 +6,71 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
   <link rel="stylesheet" href="./css/styles.css">
+  <style>
+    #mainHeading{
+      color: #F9FF33;
+      background-color: #DD33FF;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      align-self: center;
+      position:initial;
+      text-align: center;
+      text-decoration: underline;
+      text-shadow: 1px 1px;
+      border-style: dotted;
+      border-color: black;
+      margin: 250px;
+    }
+
+    /* #firstQuestion {
+      color: #000266;
+      background-color: #ff3333;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      align-self: center;
+      position:initial;
+      text-align: center;
+      text-decoration: underline;
+      text-shadow: 1px 1px;
+
+    } */
+
+/* 
+      #secondQuestion {
+      color: #025854;
+      background-color: #ff3333;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      align-self: center;
+      position:initial;
+      text-align: center;
+      text-decoration: underline;
+      text-shadow: 1px 1px;
+
+    } */
+
+    /* #thirdQuestion {
+      color: #006605;
+      background-color: #33ffe4;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      align-self: center;
+      position:initial;
+      text-align: center;
+      text-decoration: underline;
+      text-shadow: 1px 1px;
+
+    } */
+
+    /* #fourthQuestion {
+      color: #66003b;
+      background-color: #030101;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      align-self: center;
+      position:initial;
+      text-align: center;
+      text-decoration: underline;
+      text-shadow: 1px 1px;
+
+    } */
+
+  </style>
 </head>
 <body>
   <header>
@@ -19,6 +84,7 @@
     </nav>
   </header>
   <main>
+    <h1 id="mainHeading">Class 1 Lab</h1>
     <h1 id="demo">Products page</h1>
     <h2 id="greet">Welcome to the products page</h2>
   </main>
@@ -29,5 +95,30 @@
 
     <h4>Copy rights reserved. &copy;</h4>
   </footer>
+
+
+  <script>
+    let firstAnswer = prompt("What's your first name? ");
+    alert("Hey " + firstAnswer);
+    console.log(firstAnswer);
+    let secondAnswer = prompt("Which college do you go to? ");
+    alert(secondAnswer + " seems like a great college!");
+    console.log(secondAnswer);
+    let thirdAnswer = prompt("How old are you? ");
+    alert("You are " + parseInt(thirdAnswer));
+    console.log(thirdAnswer);
+    let fourthAnswer = prompt("Where do you live? ");
+    alert(fourthAnswer + " sounds like a beautiful country to live in!");
+    console.log(fourthAnswer);
+
+
+    alert("Dear " + firstAnswer + ", you go to " + secondAnswer + ", you're " + thirdAnswer + " years old and you live in " + fourthAnswer + "!")
+
+  </script>
+
+  <p style="color: #000266; background-color: #ff3333; align-self: center; text-align: center; text-decoration: underline; border-style: inset;   padding-top: 10px;   margin-bottom: 21px;  ">What's your first name?</p>
+  <p style="color: #025854; background-color: #070706; align-self: center; text-align: center; text-decoration: underline; border-style: outset; padding-top: 15px;   margin-bottom: 17px;  ">Which college do you go to?</p>
+  <p style="color: #fdf2f8; background-color: #012d3a; align-self: center; text-align: center; text-decoration: underline; border-style: groove; padding-top: 25px;   margin-bottom: 50px;  ">How old are you?</p>
+  <p style="color: #660055; background-color: #aef7e4; align-self: center; text-align: center; text-decoration: underline; border-style: dashed; padding-top: 21px;   margin-bottom: 20px;  ">Where do you live?</p>
 </body>
 </html>
